@@ -1,0 +1,9 @@
+.justified-text{
+    font-size: 20px;
+}
+body{
+    background-image: linear-gradient(white, violet);
+}
+.image{
+    margin-left: 500px;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>International - 2021</title>
+    <link rel="stylesheet" href="2021in.css">
+</head>
+<body>
+    <img src="track6.jpg" alt="">
+    <form action="/action_page.php">
+    <label for="Years"></label>
+    <select name="Years" id="Years">
+      <option value="2024" selected>2024</option>
+      <option value="2023">2023</option>
+      <option value="2022">2022</option>
+      <option value="2021">2021</option>
+  </select>
+  <br><br>
+      </form>
+      <script>
+          document.getElementById("Years").addEventListener("change", function() {
+            var selectedCar = this.value;
+            switch(selectedCar) {
+              case "2024":
+                window.location.href = "2024.html";
+                break;
+              case "2023":
+                window.location.href = "2023in.html";
+                break;
+              case "2022":
+                window.location.href = "2022in.html";
+                break;
+              case "2021":
+                window.location.href = "2021in.html";
+                break;
+              default:
+                break;
+            }
+          });
+        </script>
+        <div class="event-banner">
+            <div class="date">
+                <span class="day">13</span>
+                <span class="month">FEB</span>
+            </div>
+            <div class="event-details">
+                <h1>8th National and International Race Walk Championships 2021</h1>
+                <p>13 Feb, 2021 <b>To</b> 14 Feb, 2021</p>
+                <p>Ranchi, Jharkhand</p>
+            </div>
+        </div>
+        <br>
+        <div class="event-banner">
+            <div class="date">
+                <span class="day">30</span>
+                <span class="month">JUL</span>
+            </div>
+            <div class="event-details">
+                <h1>XXXII Olympic Games 2020</h1>
+                <p>30 Jul, 2021 <b>To</b> 8 Aug, 2021</p>
+                <p>Tokyo, Japan</p>
+            </div>
+        </div>
+        <br>
+        <div class="event-banner">
+            <div class="date">
+                <span class="day">18</span>
+                <span class="month">AUG</span>
+            </div>
+            <div class="event-details">
+                <h1>World Athletics U20 Championships Nairobi 21</h1>
+                <p>18 Aug, 2021 <b>To</b> 22 Aug, 2021</p>
+                <p>Kasarani Stadium, Nairobi</p>
+            </div>
+        </div>
+        <br>
+</body>
+</html>
