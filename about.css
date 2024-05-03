@@ -5,5 +5,9 @@ body{
     background-image: linear-gradient(white, violet);
 }
 .image{
-    margin-left: 500px;
+    /* margin-left: 500px; */
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
 }

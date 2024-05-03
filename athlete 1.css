@@ -90,8 +90,8 @@ ul li.active a{
 .main li:nth-child(3):hover .sch{
     display: block;
 }
-@media(max-width: 801px){
+/* @media(max-width: 801px){
     body{
         display: none;
     }
-}
+} */
