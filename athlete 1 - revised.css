@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: century;
+    box-sizing: border-box;
+}
+header{
+    /* background-image: url(olympics-4.jpg); */
+    width: 1280px;
+    /* height: 0px; */
+    background-position: center;
+    background-size: cover;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+    /* min-height: 400px; */
+    margin-right: 60px;
+    font-size: 17px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(6, 130, 8);
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+}
+ul li a:hover{
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+}
+ul li.active a{
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+}
+.main{
+    max-width: 1200px;
+    /* border: 2px solid black; */
+    width: 1235px;
+    height: 60px;
+    margin: 2px;
+    padding: 2px;
+}
+.subtitle{
+    /* margin-bottom: 50px; */
+    color:aqua;
+}
+.subtitle{
+    font-size: 50px;
+    text-align: center;
+}
+/* .btn{
+    border: 1.5px solid white;
+    padding: 5px 20px;
+    color:rgb(220, 220, 20);
+    transition: 0.5 ease;
+    font-size: 18px;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+} */
+    /* position: absolute;
+    top:40%;
+    /* left:20%; */
+    /* transform: translate(-50%,-50%);
+    width: 200px;
+    white-space: nowrap; */
+    /* overflow: hidden; */
+    /* text-overflow: ellipsis;
+} */
+/* .title h1{
+    color: aqua;
+    font-size: 50px;
+} */
+/* .button{
+    position: absolute;
+    top: 65%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    border: 1.5px solid white;
+    padding: 5px 20px;
+    color:rgb(220, 220, 20);
+    transition: 0.5 ease;
+    font-size: 18px;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+} */
+.sch{
+    list-style-type: none;
+    display: none;
+}
+.main li:nth-child(3):hover .sch{
+    display: block;
+}
+.title img{
+    height: 300px;
+    width: 1280px;
+    margin-bottom: 20px;
+}
+@media(max-width: 801px){
+    body{
+        display: none;
+    }
+}
